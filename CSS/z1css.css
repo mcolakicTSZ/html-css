@@ -1,5 +1,9 @@
 body{
     background-image: url("https://seeklogo.com/images/C/carnet-logo-34FDE18225-seeklogo.com.png");
+    /*background-repeat: repeat-x;*/
+    /*background-repeat: repeat-y;*/
+    background-repeat: no-repeat;
+    background-position: 200px 95px;
     background-color: #E00000;
 }
 h1{
