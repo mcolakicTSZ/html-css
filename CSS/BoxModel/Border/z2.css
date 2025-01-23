@@ -1,0 +1,7 @@
+.div{
+    border: 1px solid red;
+    margin-left: 80px;
+}
+.para{
+    margin-left: inherit;
+}

@@ -1,0 +1,18 @@
+.extra{
+    border: 2px dotted;
+    border-color: deeppink;
+    text-align: center;
+    background-color: red;
+    color: white;
+
+
+}
+
+.prvi{
+    border: 7px solid deeppink;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: black;
+    color: white;
+
+}

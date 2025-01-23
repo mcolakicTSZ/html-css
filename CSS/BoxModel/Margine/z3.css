@@ -1,0 +1,8 @@
+.klasa{
+    border: 1px solid red;
+    margin-left: 100px;
+
+}
+.prvi {
+    margin-left: inherit;
+}
