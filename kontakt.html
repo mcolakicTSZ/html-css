@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="flex.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="redci x-os-mjesta-izmedju y-os-centar zaglavlje">
+    <img class="logo" src="https://api.fzoeu.hr/v1/media/download/1/active?hash=2sbubNvu-TCKCWMEPghg.MXz3MtsigR0nCV5IP_7FDyG3~~207&redirectToBucket=true">
+    <h1>Kontakt</h1>
+    <nav class="nav">
+        <a href="index.html">Početna</a>
+        <a href="vrste.html">Vrste</a>
+        <a href="multimedija.html">Multimedija</a>
+        <a href="edukacija.html">Edukacija</a>
+        <a href="kontakt.html">Kontakt</a>
+    </nav>
+</header>
+<main class="stupci x-os-centar y-os-centar kontakt">
+    <section class="donacija">
+        <h2>Doniraj za poboljšanje obnovljivih izvora energije</h2>
+        <form class="donacija-forma">
+            <label for="ime">Ime i prezime:</label>
+            <input type="text" id="ime" name="ime" required>
+
+            <label for="email">Email adresa:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="iznos">Iznos donacije (€):</label>
+            <input type="number" id="iznos" name="iznos" min="1" step="1" required>
+
+            <label for="poruka">Poruka (opcionalno):</label>
+            <textarea id="poruka" name="poruka" rows="4"></textarea>
+
+            <button type="submit">Doniraj</button>
+        </form>
+    </section>
+</main>
+<footer class="x-os-centar podnozje">
+    <p>&copy; 2025 EduEnergija | Izradio Matej Čolakić 3.E1</p>
+</footer>
+</body>
+</html>
